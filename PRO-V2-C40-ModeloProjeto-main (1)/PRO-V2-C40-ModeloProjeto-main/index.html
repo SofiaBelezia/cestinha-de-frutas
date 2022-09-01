@@ -1,0 +1,37 @@
+<!DOCTYPE html><html lang="en"><head>
+  <script src="libraries/p5.js"></script>
+  <script src="libraries/p5.dom.min.js"></script>
+  <script src="libraries/matter.js"></script>
+  <script src="libraries/p5.play.js"></script>
+
+  <script src="js/form.js"></script>
+<!--Link game.js e player.js-->
+   
+<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-database.js"></script>
+
+<!--Adicione configuração do banco de dados abaixo-->
+
+    
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+
+  
+</head>
+<body>
+  <script src="sketch.js"></script>
+
+</body></html>
+
+<script>
+  var firebaseConfig = {
+    apiKey: "AIzaSyB5M8KwDdSvrY6Twa2rUbEI8Hn_EziTTxU",
+  authDomain: "frutinhas-7f21d.firebaseapp.com",
+  databaseURL: "https://frutinhas-7f21d-default-rtdb.firebaseio.com",
+  projectId: "frutinhas-7f21d",
+  storageBucket: "frutinhas-7f21d.appspot.com",
+  messagingSenderId: "287561864163",
+  appId: "1:287561864163:web:9dd9874b7a3350230dc6d6"
+  };
+
+  // Initialize Firebase
+const app = initializeApp(firebaseConfig);
